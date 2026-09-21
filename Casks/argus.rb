@@ -4,21 +4,21 @@ cask "argus" do
 
   on_macos do
     on_arm do
-      sha256 "f1d7a459c3206fc4670f4835a18f60c1d92428f7376dba32de6b33a8d9f532db"
+      sha256 "37ebb87e57aab0a55ac0e9767447e0a1dbc19fada2e0df828a0b275bd3fffd78"
       url "https://github.com/Tzomily-Anvar/argus/releases/download/v#{version}/argus_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "6bc971b55bf103cb288b32ecb8cafa5caac44d3e6446f725ba958ec408ff1a39"
+      sha256 "1539a5100a5d4b26b80fb13f321ccb2866692b716a1b13acc575292d278b90d5"
       url "https://github.com/Tzomily-Anvar/argus/releases/download/v#{version}/argus_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "d3f9fc1b4e9f9a58247218b398079d031073e84a6ea3624596906a7fcb8dfca7"
+      sha256 "833f97951ba5f081da837b32e74182c586d34379131fe78b7969202d6e3e2889"
       url "https://github.com/Tzomily-Anvar/argus/releases/download/v#{version}/argus_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "44c54f72fc7280d3f83f8c8e74dfa50c26216f54fad48d66069163df2dd3a41d"
+      sha256 "d114240830a42cb1e9cdd0ad9ed37232700e52fd3c63f865f53eb7adad8f8cfa"
       url "https://github.com/Tzomily-Anvar/argus/releases/download/v#{version}/argus_#{version}_linux_amd64.tar.gz"
     end
   end
